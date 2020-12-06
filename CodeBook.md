@@ -1,10 +1,12 @@
 # Raw data
-
-* Merging the training and the test sets to create one data set.
-* Extracting only the measurements on the mean and standard deviation for each measurement.
-* Useing descriptive activity names to name the activities in the data set
-* Appropriately labeling the data set with descriptive variable names.
-* Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+The raw data are obtained from 6 files: `X_train.txt`, `X_test.txt`, `y_train.txt`, `y_test.txt`, `subject_train.txt` and `subject_test.txt`
+* `X_train.txt`contains values of all 561 features in the training data set.
+* `X_test.txt`contains values of all 561 features in the test data set.
+* `y_train.txt`identifies activites related to the values in the training data set.
+* `y_test.txt`identifies activites related to the values in the test data set.
+* According to `activity_labels.txt`, there are six activities in the data: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.
+* `subject_train.txt` identifies the participants in the training data set.
+* `subject_test.txt` identifies the participants in the test data set.
 
 
 # Descriptions
