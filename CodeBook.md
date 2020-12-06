@@ -9,7 +9,16 @@ The raw data are obtained from 6 files: `X_train.txt`, `X_test.txt`, `y_train.tx
 * `subject_test.txt` identifies the participants in the test data set.
 
 
-# Descriptions
+# Procedure
+The final data set was created through the following steps:
+* 1. The training data set (`X_train.txt`) and the test data set (`X_test.txt`) were merged into one data set.
+* 2. Feature names (`features.txt`) were used to name the variables.
+* 3. Subject ids were obtained from `subject_train.txt` and `subject_test.txt`.
+* 4. Activities were obtained from `y_train.txt` and `y_test.txt`.
+* 5. Activities were renamed according to `activity_labels.txt`.
+* 6. The mean and standard deviation for each feature were extracted, which resulted in 66 variables.
+* 7. Variables were renamed to be understandable, using information obtained from `features_info.txt`.
+* 8. The final data set (`final-data.txt`) was created by taking the mean of each feature for each participant and each activity.
 
 ## Identififiers
 The first two columns - Subject and Activity - are Identifiers.
